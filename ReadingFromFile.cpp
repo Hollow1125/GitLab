@@ -25,4 +25,4 @@ void ReadingFromFile(vector<string> &text)
         cout << x << endl;
     }
 }
-//
+
