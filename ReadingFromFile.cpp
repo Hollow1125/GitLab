@@ -2,18 +2,17 @@
 #include <fstream>
 #include <string>
 #include <vector>
-#include <windows.h>
 #include "ReadingFromFile.h"
 #include "Printing.h"
 #include "WritingToFile.h"
 
 using namespace std;
 
-void ReadingFromFile()
+
+int ReadingFromFile(vector<string> &text)
 {
     setlocale(LC_ALL, "Rus");
 
-    vector<string> text;
     ifstream in("file.txt");
     string row;
     while(!in.eof())
@@ -22,4 +21,5 @@ void ReadingFromFile()
         text.push_back(row);
     }
     in.close();
+    return 1;
 }
