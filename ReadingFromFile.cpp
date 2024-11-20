@@ -20,9 +20,8 @@ void ReadingFromFile(vector<string> &text)
         text.push_back(row);
     }
     in.close();
-    for(auto x: text)
-    {
-        cout << x << endl;
-    }
+ FirstFunction
+=======
+ main
 }
 
