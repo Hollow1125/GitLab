@@ -3,11 +3,9 @@
 #include <string>
 #include <vector>
 #include "ReadingFromFile.h"
-#include "Printing.h"
-#include "WritingToFile.h"
+
 
 using namespace std;
-
 
 void ReadingFromFile(vector<string> &text)
 {
@@ -18,7 +16,12 @@ void ReadingFromFile(vector<string> &text)
     while(!in.eof())
     {
         getline(in, row);
+        if(!in.good()) break;
         text.push_back(row);
     }
     in.close();
+ FirstFunction
+=======
+ main
 }
+
