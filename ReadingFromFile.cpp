@@ -16,7 +16,12 @@ void ReadingFromFile(vector<string> &text)
     while(!in.eof())
     {
         getline(in, row);
+        if(!in.good()) break;
         text.push_back(row);
     }
     in.close();
+    for(auto x: text)
+    {
+        cout << x << endl;
+    }
 }
