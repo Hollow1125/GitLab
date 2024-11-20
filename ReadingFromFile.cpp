@@ -11,4 +11,6 @@ void ReadingFromFile()
 {
     setlocale(LC_ALL, "Rus");
 
+
 }
+

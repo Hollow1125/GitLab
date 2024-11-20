@@ -7,12 +7,12 @@
 
 using namespace std;
 
-
-
 int main()
 {
     setlocale(LC_ALL, "Rus");
+
     ReadingFromFile();
-    Printing();
-    WritingToFile();
+    Printing(text);
+    WritingToFile(text);
+
 }

@@ -1,14 +1,23 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 #include "ReadingFromFile.h"
 #include "Printing.h"
-#include "WritingToFile.h"
+
 
 using namespace std;
 
-void Printing()
+
+void Printing(vector<string> &text)
 {
     setlocale(LC_ALL, "Rus");
 
+    ReadingFromFile(text);
+    for (auto x : text)
+    {
+        cout << x << endl;
+    }
 }
+
+
