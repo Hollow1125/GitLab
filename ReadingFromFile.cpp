@@ -3,13 +3,11 @@
 #include <string>
 #include <vector>
 #include "ReadingFromFile.h"
-#include "Printing.h"
-#include "WritingToFile.h"
+
 
 using namespace std;
 
-
-int ReadingFromFile(vector<string> &text)
+void ReadingFromFile(vector<string> &text)
 {
     setlocale(LC_ALL, "Rus");
 
@@ -21,5 +19,4 @@ int ReadingFromFile(vector<string> &text)
         text.push_back(row);
     }
     in.close();
-    return 1;
 }

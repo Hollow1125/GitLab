@@ -9,11 +9,12 @@
 using namespace std;
 
 
+
 int main()
 {
     setlocale(LC_ALL, "Rus");
 
-    vector<std::string> text;
+    vector<string> text;
     ReadingFromFile(text);
     Printing();
     WritingToFile();
