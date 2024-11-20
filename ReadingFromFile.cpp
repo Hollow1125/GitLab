@@ -20,8 +20,5 @@ void ReadingFromFile(vector<string> &text)
         text.push_back(row);
     }
     in.close();
- FirstFunction
-=======
- main
 }
 
