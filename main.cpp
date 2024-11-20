@@ -16,7 +16,7 @@ int main()
 
     vector<string> text;
     ReadingFromFile(text);
-    Printing();
-    WritingToFile();
+    Printing(text);
+    WritingToFile(text);
 
 }
