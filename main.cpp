@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <vector>
 #include "ReadingFromFile.h"
 #include "Printing.h"
 #include "WritingToFile.h"
