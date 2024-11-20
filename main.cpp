@@ -11,8 +11,8 @@ int main()
 {
     setlocale(LC_ALL, "Rus");
 
-
-    ReadingFromFile();
+    vector<string> text;
+    ReadingFromFile(text);
     Printing(text);
     WritingToFile(text);
 
