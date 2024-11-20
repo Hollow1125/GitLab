@@ -1,5 +1,5 @@
-Bion 100 1X001
-Philips 200 2X002
-Redmond 150 3X003
-Bosch 215 4X004
-Tefal 175 5X005
+Bion
+Philips
+Redmond
+Bosch
+Tefal
