@@ -1,0 +1,6 @@
+#ifndef WRITINGTOFILE_H_INCLUDED
+#define WRITINGTOFILE_H_INCLUDED
+
+void WritingToFile();
+
+#endif // WRITINGTOFILE_H_INCLUDED

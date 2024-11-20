@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Printing.cpp" />
+		<Unit filename="Printing.h" />
+		<Unit filename="ReadingFromFile.cpp" />
+		<Unit filename="ReadingFromFile.h" />
+		<Unit filename="WritingToFile.cpp" />
+		<Unit filename="WritingToFile.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
