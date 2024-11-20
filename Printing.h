@@ -1,6 +1,9 @@
 #ifndef PRINTING_H_INCLUDED
 #define PRINTING_H_INCLUDED
 
-void Printing();
+#include <vector>
+using namespace std;
+
+void Printing(vector<string> &text);
 
 #endif // PRINTING_H_INCLUDED

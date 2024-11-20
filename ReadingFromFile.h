@@ -6,4 +6,5 @@ using namespace std;
 
 void ReadingFromFile(vector<string> &text);
 
+
 #endif // READINGFROMFILE_H_INCLUDED
